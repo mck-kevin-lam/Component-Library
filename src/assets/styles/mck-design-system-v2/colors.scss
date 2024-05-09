@@ -1,0 +1,73 @@
+/*  
+ *  Source: https://www.figma.com/file/efANOu8kGE0HoGCDqE4tNf/Design-System-V2.9-(Copy)?type=design&node-id=795-0&mode=design&t=5FNfV6JMEx6F8OV3-0 
+ */
+
+/***********
+ * PRIMARY * 
+ ***********/
+
+/* Brand elements | Global Nav 
+  * All Interaction Items (Buttons, Icon Buttons, Links, Checkboxes, Radios, etc) 
+  * All selected Colors (Tabs, etc.) 
+  * Main Text Colors (Headlines, Header Labels, Sub-Headers) */
+
+$blue1: #007cc1; // CTA Default
+$slate: #3c5c6e; // Top Bar / Global Nav
+$white: #ffffff; // All content (w/ Header Bar BG) | Badge Text | Base BG
+
+/***************
+ * TEXT COLORS * 
+ ***************/
+
+$black: #131313; // Header | Header-Label | Subheader | Selected data (w/yellow BG)
+$dark-slate: #1e394e; // Info text
+$light-slate: #627386; // Info BG for badge, flag | Form Field normal state
+
+/*****************
+ * UI DARK | COOL* 
+ *****************/
+
+$cool-grey1: #bac5cc; //Borders, Dividers, Disabled Text
+$cool-grey2: #e5e8ea; //Primary Nav, Content Header bar, Modal Header, Auto Filled Text Field
+$cool-grey3: #f2f6fa; //Disabled, Normal Tooltip
+
+/*******************
+ * UI LIGHT | WARM * 
+ *******************/
+
+$warm-grey1: #d9d8d7; // Border, Dividers, Table Rows
+$warm-grey2: #f3f2f1; // Normal State BG – Radio, Checkbox | Subtitle Bar | Patient Panel BG | Spreadsheet header  | Normal & Hover states – Text Bar
+$warm-grey3: #fbfbfa; // Foundation | Panel BG
+
+/*********
+ *  CTA  * 
+ *********/
+
+$cta-blue: $blue1;
+$cta-blue2: #00669e; //CTA Hover
+$cta-blue3: #005483; //CTA Pressed
+
+/************
+ * SELECTED * 
+ ************/
+
+$yellow1: #f7c91e; // Selected Tabs, Fields
+$yellow2: #faf0c8; // Selected Tabs, Fields (w/text)
+
+/********************
+ * CRITICAL / ERROR * 
+ ********************/
+
+$red1: #981b1f; // Critical Default
+$red2: #cb4039;
+$red3: #d46a67;
+$red4: #f9e9e8;
+
+/***********
+ * WARNING * 
+ ***********/
+
+$coral: #ff5b42; //Warning Default
+$orange1: #d3722e;
+$orange2: #ecb672;
+$orange3: #f9e6cf;

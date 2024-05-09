@@ -1,0 +1,340 @@
+/*  
+ *  Source: https://www.figma.com/file/efANOu8kGE0HoGCDqE4tNf/Design-System-V2.9-(Copy)?type=design&node-id=796-211&mode=design&t=xOkLUw9KBttbGZLz-0
+ */
+
+// @import url("https://fonts.googleapis.com/css?family=Nunito:ital,wght@0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+$family-primary: "Nunito", sans-serif;
+
+/***************
+ * FONT WEIGHT * 
+ ***************/
+
+$weight-bold: 700;
+$weight-semi-bold: 600;
+$weight-normal: 400;
+
+/*********************
+ * FONT SIZES (BODY) * 
+ *********************/
+
+$font-size-xl: 18px;
+$font-size-l: 16px;
+$font-size-m: 14px;
+$font-size-s: 12px;
+$font-size-xs: 10px;
+
+/**********************
+ * LINE HEIGHT (BODY) * 
+ **********************/
+
+$line-height-xl: 22px;
+$line-height-l: 20px;
+$line-height-m: 18px;
+$line-height-s: 16px;
+$line-height-xs: 14px;
+
+/************************
+ * LETTER SPACING (BODY) * 
+ ************************/
+
+$letter-spacing-xl: -0.04px;
+$letter-spacing-l: -0.02px;
+$letter-spacing-s: 0.01px;
+$letter-spacing-xs: 0.02px;
+
+/***********
+ * DISPLAY * 
+ ***********/
+
+/*
+  * Used in high level displays such as login screens and landing pages titles
+  */
+
+.size-display-l {
+  font-size: 80px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.8px;
+  line-height: 84px;
+}
+
+.size-display-m {
+  font-size: 64px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.48px;
+  line-height: 68px;
+}
+
+.size-display-s {
+  font-size: 48px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.24px;
+  line-height: 52px;
+}
+
+/*************
+ * HEADLINES * 
+ *************/
+
+/*
+  * Used in titles and header sections, but not on small screens
+  */
+
+.size-headline-l {
+  font-size: 32px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.192px;
+  line-height: 36px;
+}
+
+.size-headline-m {
+  font-size: 28px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.112px;
+  line-height: 32px;
+}
+
+.size-headline-s {
+  font-size: 24px;
+  font-weight: $weight-semi-bold;
+  letter-spacing: -0.05px;
+  line-height: 28px;
+}
+
+/***************
+ * BOLD TITLES * 
+ ***************/
+
+/*
+  * Used in heading sections in layout or the top level or individual components 
+  * that should stand out such as Modal component headers
+  */
+
+.size-bold-title-l {
+  font-size: 24px;
+  font-weight: $weight-bold;
+  letter-spacing: -0.144%;
+  line-height: 28px;
+}
+
+.size-bold-title-m {
+  font-size: 22px;
+  font-weight: $weight-bold;
+  letter-spacing: -0.088px;
+  line-height: 26px;
+}
+
+.size-bold-title-s {
+  font-size: 20px;
+  font-weight: $weight-bold;
+  letter-spacing: -0.04px;
+  line-height: 24px;
+}
+
+/***********************
+ * BODY TEXT - PRESETS * 
+ ***********************/
+
+/*
+  * Common text style
+  */
+
+.body-preset-xl {
+  font-size: $font-size-xl;
+  font-weight: $weight-bold;
+  letter-spacing: $letter-spacing-xl;
+  line-height: $line-height-xl;
+}
+
+.body-preset-l {
+  font-size: $font-size-l;
+  font-weight: $weight-bold;
+  letter-spacing: $letter-spacing-l;
+  line-height: $line-height-l;
+}
+
+.body-preset-m {
+  font-size: $font-size-m;
+  font-weight: $weight-bold;
+  line-height: $line-height-m;
+}
+
+.body-preset-s {
+  font-size: $font-size-s;
+  font-weight: $weight-bold;
+  letter-spacing: $letter-spacing-s;
+  line-height: $line-height-s;
+}
+
+.body-preset-xs {
+  font-size: $font-size-xs;
+  font-weight: $weight-bold;
+  letter-spacing: $letter-spacing-xs;
+  line-height: $line-height-xs;
+}
+
+/*************
+ * BODY TEXT * 
+ *************/
+
+.size-body-bold-xl {
+  @extend .body-preset-xl;
+  font-weight: $weight-bold;
+}
+
+.size-body-bold-l {
+  @extend .body-preset-l;
+  font-weight: $weight-bold;
+}
+
+.size-body-bold-m {
+  @extend .body-preset-m;
+  font-weight: $weight-bold;
+}
+
+.size-body-bold-s {
+  @extend .body-preset-s;
+  font-weight: $weight-bold;
+}
+
+.size-body-bold-xs {
+  @extend .body-preset-xs;
+  font-weight: $weight-bold;
+}
+
+.size-body-semi-bold-xl {
+  @extend .body-preset-xl;
+  font-weight: $weight-semi-bold;
+}
+
+.size-body-semi-bold-l {
+  @extend .body-preset-l;
+  font-weight: $weight-semi-bold;
+}
+
+.size-body-semi-bold-m {
+  @extend .body-preset-m;
+  font-weight: $weight-semi-bold;
+}
+
+.size-body-semi-bold-s {
+  @extend .body-preset-s;
+  font-weight: $weight-semi-bold;
+}
+
+.size-body-semi-bold-xs {
+  @extend .body-preset-xs;
+  font-weight: $weight-semi-bold;
+}
+
+.size-body-regular-xl {
+  @extend .body-preset-xl;
+  font-weight: $weight-normal;
+}
+
+.size-body-regular-l {
+  @extend .body-preset-l;
+  font-weight: $weight-normal;
+}
+
+.size-body-regular-m {
+  @extend .body-preset-m;
+  font-weight: $weight-normal;
+}
+
+.size-body-regular-s {
+  @extend .body-preset-s;
+  font-weight: $weight-normal;
+}
+
+.size-body-regular-xs {
+  @extend .body-preset-xs;
+  font-weight: $weight-normal;
+}
+
+/************
+ * ALL CAPS * 
+ ************/
+
+/*
+  * Used in short word or phrases to emphasize message, such as buttons
+  */
+
+.all-caps-bold-xl {
+  @extend .size-body-bold-xl;
+  text-transform: uppercase;
+}
+
+.all-caps-bold-l {
+  @extend .size-body-bold-l;
+  text-transform: uppercase;
+}
+
+.all-caps-bold-m {
+  @extend .size-body-bold-m;
+  text-transform: uppercase;
+}
+
+.all-caps-bold-s {
+  @extend .size-body-bold-s;
+  text-transform: uppercase;
+}
+
+.all-caps-bold-xs {
+  @extend .size-body-bold-xs;
+  text-transform: uppercase;
+}
+
+.all-caps-semi-bold-xl {
+  @extend .size-body-semi-bold-xl;
+  text-transform: uppercase;
+}
+
+.all-caps-semi-bold-l {
+  @extend .size-body-semi-bold-l;
+  text-transform: uppercase;
+}
+
+.all-caps-semi-bold-m {
+  @extend .size-body-semi-bold-m;
+  text-transform: uppercase;
+}
+
+.all-caps-semi-bold-s {
+  @extend .size-body-semi-bold-s;
+  text-transform: uppercase;
+}
+
+.all-caps-semi-bold-xs {
+  @extend .size-body-semi-bold-xs;
+  text-transform: uppercase;
+}
+
+.all-caps-regular-xl {
+  @extend .size-body-regular-xl;
+  text-transform: uppercase;
+}
+
+.all-caps-regular-l {
+  @extend .size-body-regular-l;
+  text-transform: uppercase;
+}
+
+.all-caps-regular-m {
+  @extend .size-body-regular-m;
+  text-transform: uppercase;
+}
+
+.all-caps-regular-s {
+  @extend .size-body-regular-s;
+  text-transform: uppercase;
+}
+
+.all-caps-regular-xs {
+  @extend .size-body-regular-xs;
+  text-transform: uppercase;
+}
+
+// Underline is used for interactive texts to indicate that includes a hyper link.
+// It is not supposed to be sentences or paragraphs.
